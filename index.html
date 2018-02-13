@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="main.css" />
+
+   </head>
+
+    <div class="page">
+      <h1>Stay up to date with ecommerce trends with Shopify's newsletter</h1>
+      <p>Subscribe for free marketing tips</p>
+
+      <form action="/" method="post" name="signupForm">
+        <div class="info">
+          <input type="text" id="email" name="email" placeholder="Email Address">
+          <div class="selectdiv">
+            <select name="interest" class="interest">
+              <option value="" disabled selected>Interested in...</option>
+              <option class="optionSelected" value="optionOne">Option One</option>
+              <option class="optionSelected" value="optionTwo">Option Two</option>
+              <option class="optionSelected" value="optionThree">Option Three</option>
+            </select>
+          </div>
+       </div>
+
+       <div id="warningMessage">
+         <span>Please enter a valid email address</span>
+      </div>
+
+
+
+      <input type="submit" value="Sign up now" id="button">
+
+    </form>
+
+    <p class="footer"><a href="#">Unsubscribe</a></p>
+  </div>
+  <script src="ex.js"></script>
+  </html>
